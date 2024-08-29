@@ -1,0 +1,458 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Qanelas;
+}
+
+img {
+    filter: brightness(1.2) contrast(1);
+    image-rendering: crisp-edges;
+    max-width: 100%;
+    height: auto;
+ }
+
+body {
+    background: #1E2538; 
+    background-image: 
+    radial-gradient(circle, rgba(30, 37, 56, 0) 70%, #1E2538 100%), 
+    url(./img/0f7ceb74f39c8622dfb623220e93a372.png);
+    background-size: 99% auto; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-blend-mode: normal;
+    width: 100%; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+ }   
+ 
+ body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    pointer-events: none; 
+ }
+
+ .container {
+    width: 1200px;
+ }
+
+  header {
+    position: absolute;
+    top: 30px; 
+    left: 100px; 
+ } 
+
+.film {
+    position: absolute;
+    left: 50px;
+}
+
+.kinoAreya {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 7px;
+}
+
+.kinoAreya img.cinema {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.kinoAreya p {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.kinoAreya .b {
+    color: #4769ff;
+}
+
+.kinoAreya p {
+    color: white;
+    font-size: 30px;
+}
+
+.preview {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+}
+
+.preview img {
+   width: 140px;
+   height: 14px;
+}
+
+nav {
+    top: 33px;
+    left: 400px;
+    position: relative;
+    display: flex;
+    gap: 45px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;    
+}
+
+.box {
+    position: absolute;
+    right: -620px;
+    top: 20px;
+}
+
+.Vector {
+    position: absolute;
+    right: -605px;
+    top: 33px;
+    width: 25px;
+}
+
+.button {
+    position: absolute;
+    width: 138px;
+    height: 53px;
+    background-color: #3657CB;
+    border-radius: 15px;
+    right: -780px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    -webkit-box-shadow: -1px 2px 31px 86px rgba(17, 63, 224, 0.84) inset;
+    -moz-box-shadow: -1px 2px 31px 86px rgba(17, 63, 224, 0.84) inset;
+    box-shadow: -1px 2px 31px 86px rgba(17, 63, 224, 0.84) inset;
+}
+
+
+.now_sinema {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  display: flex;
+  gap: 100px;
+}
+
+.now_sinema {
+    font-family: Qanelas;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    
+    
+}
+
+.minus {
+    font-size: 100px;
+    position: relative;
+    top: -75px;  
+}
+
+.nav {
+    position: absolute;
+    top: 224px;
+    left: 800px;
+    font-size: 18px;
+    gap: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #898989
+} 
+
+.nav a.white {
+    color: white; 
+}
+
+.film_container {
+    position: relative;
+    left: 250px;
+    top: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px); 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+ 
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 200px;
+    height: auto; 
+    border-radius: 5px;  
+    transition: transform 0.3s ease-in-out;
+}
+
+.item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+#toggle_button{
+    position: relative;
+    left: 770px;
+    top: 330px;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px ;
+    opacity: 0px;
+    background-color:  #1E2538;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+
+section {
+    max-width: 1000px;
+    position: relative;
+    top: 400px;
+    left: 350px;
+}
+
+
+.h_and_p {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.h_and_p h1 {
+    font-size: 45px;
+}
+
+.h_and_p p {
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+}
+.afterburner {
+    margin-top: 50px;
+}
+
+.afterburner_flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.afterburner_flex h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.f {
+    position: relative;
+    left: -200px;
+    top: -5px;
+    filter: brightness(80%)
+}
+
+.like {
+    position: relative;
+    top: -6px;
+    width: 70px;
+    height: auto;
+}
+
+.img_box {
+    display: flex;
+    max-width: 235px;
+    height: auto;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.one {
+    max-width: 1000px;
+    position: relative;
+    top: 400px;
+    left: 350px;
+    display: flex;
+    
+}
+
+.minus_n {
+    color: white;
+    position: relative;
+    left: 70px;
+    font-size: 100px;
+    top: -65px;
+
+}
+
+.one h1{
+   font-size: 30px;
+   color: white;
+   margin-top: 25px;
+}
+
+.naw {
+    font-size: 17px;
+    display: flex;
+    gap: 27px;
+    text-decoration: none;
+    position: absolute;
+    left: 558px;
+    top: 35px;
+}
+
+.naw a {
+    text-decoration: none;
+    color: #898989;
+}
+
+.naw .w2019 {
+    color: white;
+}
+
+  .movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.popular_film {
+    display: flex;
+    overflow: hidden;
+    width: 800px;
+    position: relative;
+    top: 383px;
+    left: 200px;
+}
+
+.elem {
+    flex: 0 0 25%; 
+    text-align: center;
+    margin: 0 10px;
+}
+
+.elem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.elem img:hover {
+    transform: scale(1.05);
+}
+
+.elem span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.left-btn, .right-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 374px;
+    right: -207px;
+}
+
+.left-btn:hover, .right-btn:hover {
+    background-color: #555;
+} 
+
+.popular_persons {
+    position: relative;
+    top: 420px;
+    left: 354px;
+    display: flex;
+    gap: 454px;
+}
+
+.popular_persons h1 {
+font-size: 30px;
+color: white;
+}
+
+.god {
+    display: flex;
+    gap: 30px;
+}
+
+.god {
+    color:  #898989;
+    font-size: 17px;
+}
+
+.nd {
+    color: white;
+    font-size: 17px;
+}
+
+.personns_img {
+    position: relative;
+    left: 351px;
+    top: 455px;
+    display: flex;
+    gap: 30px;
+  
+}
+
+.personns_img {
+    width: 310px;
+    height: auto;
+}
+
+.svgg {
+    width: 310px;
+    height: 310px;
+}
+
+.temn {
+    background: #151A26;
+     position: relative;
+    top: 511px; 
+    width: 1690px;
+    height: 1500px;
+
+}
+
+.tenm_container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
